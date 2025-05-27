@@ -1,12 +1,94 @@
-# React + Vite
+# 🛒 React Shopping Cart with Context API 🛒  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)  
+![Context API](https://img.shields.io/badge/Context_API-3178C6?style=for-the-badge&logo=react&logoColor=white)  
 
-Currently, two official plugins are available:
+A simple yet powerful shopping cart application built with **React** and **Context API** for state management. This project was developed as part of [John Smilga](https://www.johnsmilga.com/)'s *"Complete React, Next.js & TypeScript Projects Course 2025"*.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features  
 
-## Expanding the ESLint configuration
+- 🛍️ **Add/Remove** products from cart  
+- 🔼 **Increase** / 🔽 **Decrease** item quantities  
+- 💰 **Auto-calculated** total price  
+- 🧹 **Clear cart** functionality  
+- 📱 **Responsive design**  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started  
+
+### Prerequisites  
+- Node.js (v16+)  
+- npm/yarn  
+
+### Installation  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Mohamed-Esmat/simple-contextAPI-useReducer-cart.git
+   ```
+2. Navigate to the project directory:  
+   ```bash
+   cd simple-contextAPI-useReducer-cart
+   ```
+3. Install dependencies:  
+   ```bash
+   npm install
+   ```
+4. Start the development server:  
+   ```bash
+   npm run dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.  
+
+## 🧰 Tech Stack  
+
+- ⚛️ **React** (v18)  
+- � **Context API** (State Management)  
+- 🎨 **CSS** (Vanilla CSS for styling)  
+- ✨ **React Icons** (FaCartPlus, FaChevronUp/Down)  
+
+## 📂 Project Structure  
+
+```
+react-shopping-cart/
+├── src/
+│   ├── components/
+│   │   ├── CartContainer.jsx
+│   │   ├── CartItem.jsx
+│   │   └── Navbar.jsx
+│   ├── store/
+│   │   ├── actions.js
+│   │   ├── cart-reducer.js
+│   │   └── context.jsx
+│   ├── data.js
+│   └── App.js
+├── public/
+└── README.md
+```
+
+## 📝 Key Learnings  
+
+- 🧩 **Context API** for global state management  
+- ♻️ **useReducer** for complex state logic  
+- 🏗️ **Component-based** architecture  
+- 🎯 **Prop drilling** avoidance techniques  
+
+## 📸 Screenshots  
+
+| Empty Cart | Filled Cart |
+|------------|-------------|
+| ![Empty Cart](https://res.cloudinary.com/tawfeer/image/upload/v1748379335/cart-empty_tlkaov.png) | ![Filled Cart](https://res.cloudinary.com/tawfeer/image/upload/v1748379355/filled-cart_q374u8.png) |
+
+## 🙏 Credits  
+
+- Instructor: [John Smilga](https://github.com/john-smilga)  
+- Developed by: [Mohamed Esmat](https://github.com/Mohamed-Esmat)  
+
+## 📜 License  
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/Mohamed-Esmat">Mohamed Esmat</a>
+</p>
